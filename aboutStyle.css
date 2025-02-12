@@ -1,0 +1,33 @@
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: white;
+}
+
+h1{
+    text-align: center;
+    color: black;
+    font-size: 36px;
+    text-decoration: underline;
+}
+
+nav {
+    text-align: center;
+    font-size: 24px;
+}
+
+.home{
+    margin-right: 50px;
+}
+
+h2{
+    text-align: center;
+}
+
+section{
+    border: solid black;
+    background-color: lightgray;
+    text-align: left;
+    margin: 20px;
+    padding: 20px;
+    font-size: 24px;
+}
