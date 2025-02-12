@@ -1,0 +1,25 @@
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+article{
+    display: flex;
+}
+
+section{
+    text-align: left;
+}
+
+.homePhoto{
+    height:300px;
+    width:auto;
+}
