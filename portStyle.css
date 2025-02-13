@@ -1,5 +1,5 @@
 html{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif
     background-color: white;
 }
 
@@ -16,7 +16,11 @@ nav {
 }
 
 .home{
-    margin-right: 50px;
+    margin-right: 20px;
+}
+
+.about{
+    margin-right: 20px;
 }
 
 h2{
@@ -45,12 +49,17 @@ p{
     font-size: 18px;
 }
 
+h3, p{
+    margin:5px;
+    }
+
 .projectContainer1{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 400px;
+    width: 500px;
+    padding: 20px;
 }
 
 .projectContainer2{
@@ -58,7 +67,8 @@ p{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 400px;
+    width: 500px;
+    padding: 20px;
 }
 
 .topRow{
@@ -73,7 +83,8 @@ p{
     align-items: center;
     flex-direction: column;
     text-align: center;
-    width: 400px;
+    width: 500px;
+    padding: 20px;
 }
 
 .projectContainer4{
@@ -82,7 +93,8 @@ p{
     align-items: center;
     flex-direction: column;
     text-align: center;
-    width: 400px;
+    width: 500px;
+    padding: 20px;
 }
 
 .bottomRow{
