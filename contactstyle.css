@@ -28,35 +28,19 @@ nav {
 }
 
 article{
-    display: flex;
     border: solid black;
     margin: 20px;
     background-color: lightgray;
 }
 
-section{
-    text-align: left;
-    margin: 100px;
-    padding: 20px;
-    font-size: 24px;
-}
-
-.homePhoto{
-    margin-right: 25px;
-    margin-top: auto;
-    margin-bottom: auto;
-    padding: 10px;
-    height: 350px;
-    width: auto;
-    display:block;
-}
-
-.quote{
-    font-size: 24px;
+h2{
     text-align: center;
+    font-size: 35px;
 }
 
-.attribute{
-    text-align: right;
-    margin-left: 600px;
+.formContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
 }
