@@ -1,18 +1,51 @@
 html{
-    font-family: times;
-    background-color: white;
+    font-family: sans-serif;
+    background-color: gray;
 }
 
 h1{
-    text-align: center;
-    color: black;
-    font-size: 36px;
-    text-decoration: underline;
+    text-align: left;
+    color: white;
+    font-size: 40px;
+    background-color: darkblue;
+    margin-top: 0px;
+    padding: 25px;
 }
 
 nav {
-    text-align: center;
+    text-align: right;
     font-size: 24px;
+    background-color: darkblue;
+    color: white;
+    padding-right: 25px;
+}
+
+.header{
+    border: solid white;
+    box-shadow: 0 0 12px -2px black;
+    margin: 20px;
+}
+
+h1, nav{
+    margin: 0px;
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: purple;
+    background-color: transparent;
+    text-decoration: underline;
 }
 
 .home{
@@ -31,8 +64,26 @@ h2{
     text-align: center;
 }
 
+section{
+    border: solid black;
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    padding: 20px;
+}
+
+h2{
+    text-align: center;
+}
+
 img{
-    height: 150px;
+    height: 200px;
     width: auto;
 }
 
@@ -40,7 +91,7 @@ article{
     border: solid black;
     background-color: lightgray;
     text-align: left;
-    margin: 20px;
+    margin: 75px;
     padding: 20px;
     font-size: 24px;
 }
@@ -57,52 +108,29 @@ h3, p{
     margin:5px;
     }
 
-.projectContainer1{
-    display: flex;
+.projectDisplay{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    margin-left: 75px;
+    margin-right: 75px;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 500px;
-    padding: 20px;
 }
 
-.projectContainer2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 500px;
-    padding: 20px;
+section:hover{
+    padding: 30px;
+    background-color: lightblue;
 }
 
-.topRow{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.projectContainer3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    width: 500px;
-    padding: 20px;
-}
-
-.projectContainer4{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    width: 500px;
-    padding: 20px;
-}
-
-.bottomRow{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+@media (max-width: 800px) {
+    body {
+      background-color: green;
+    }
+    article {
+        background-color: purple;
+    }
+    section {
+        background-color: orange;
+    }
 }
