@@ -71,4 +71,5 @@ section{
     margin: 75px;
     padding: 20px;
     font-size: 24px;
+    box-shadow: 0 0 12px -2px black;
 }

@@ -68,6 +68,7 @@ article{
     border: solid black;
     margin: 200px;
     background-color: lightgray;
+    box-shadow: 0 0 12px -2px black;
 }
 
 h2{
