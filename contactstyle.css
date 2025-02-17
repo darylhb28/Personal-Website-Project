@@ -82,3 +82,8 @@ h2{
     flex-direction: column;
     justify-content: space-between;
 }
+
+.submitButton:hover{
+    padding: 8px;
+    background-color: lightblue;
+}
