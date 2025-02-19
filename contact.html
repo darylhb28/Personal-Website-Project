@@ -5,21 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daryl Hornick-Becker</title>
     <link rel="stylesheet" href="contactstyle.css"/>
-    <script src="javascript.js"></script>
+    <script src="contact.js" defer></script>
 </head>
 <body>
-    <div class="header">
-        <h1>Daryl Hornick-Becker</h1>
-        <nav>
+    <nav>
+        <div>
+            <h1>Daryl Hornick-Becker</h1>
+        </div>
+        <div class=navLinks>
             <a class=home href=index.html>Home</a>
             <a class=about href="about.html">About</a>
             <a class=portfolio href="portfolio.html">Portfolio</a>
             <a class=contact href="contact.html">Contact</a>
-        </nav>
-    </div>
-    <br>
+        </div>
+    </nav>
+        <br>
+        <br>
     <article>
-    <form action="success.html">
+    <form id="form" action="success.html">
         <div class="formContainer">
         <section>
             <br>
@@ -48,7 +51,7 @@
         </section>
             <br>
         <section>
-            <input class=submitButton type="submit" value="Submit">
+            <input class=submitButton type="submit" value="Submit" id="submit">
         </section>
             <br>
         </div>
